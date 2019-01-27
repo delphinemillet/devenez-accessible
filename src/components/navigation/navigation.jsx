@@ -9,7 +9,7 @@ const Navigation = () => (
       {
         routes.map(({ path, title, exact }) => (
           <li className="item" key={path}>
-            <NavLink className="link" to={path} exact={exact}>{title}</NavLink>
+            <NavLink className="link" to={path} exact={exact} tabIndex="-1">{title}</NavLink>
           </li>
         ))
       }

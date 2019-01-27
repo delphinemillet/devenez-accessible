@@ -1,6 +1,6 @@
 import Interactions from './pages/interactions'
 import Images from './pages/images'
-import Formulaires from './pages/formulaires'
+import Formulaire from './pages/formulaire'
 import Structure from './pages/structure'
 import Modale from './pages/modale'
 import Styles from './pages/styles'
@@ -18,9 +18,9 @@ export const routes = [
     component: Images
   },
   {
-    title: 'Formulaires',
-    path: '/formulaires',
-    component: Formulaires
+    title: 'Formulaire',
+    path: '/formulaire',
+    component: Formulaire
   },
   {
     title: 'Structure',
