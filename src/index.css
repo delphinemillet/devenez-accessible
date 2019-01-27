@@ -1,3 +1,7 @@
+html {
+  height: 100vh;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +10,16 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f9f9fa;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  monospace;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: monospace;
+  font-size: 2.5em;
 }
