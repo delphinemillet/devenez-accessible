@@ -7,12 +7,14 @@ import './App.css'
 const App = () => (
   <Router>
     <div className="container">
-    <Navigation />
-    {
-      routes.map(props =>
-        <Route {...props} />
-      )
-    }
+      <Navigation />
+      <div className="content">
+        {
+          routes.map(props =>
+            <Route key={props.path} {...props} />
+          )
+        }
+      </div>
     </div>
   </Router>
 )
