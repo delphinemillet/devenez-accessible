@@ -29,7 +29,7 @@ class Formulaires extends React.Component {
     const { errors, send } = this.state
     return (
       <div className="formulaire">
-        <h1 className="title">Formulaires</h1>
+        <h1 className="center">Formulaires</h1>
         <form className="column" onSubmit={this.handleSubmit}>
           <div>
             {/* Le placeholder ne permet pas à l'utilisateur d'un lecteur d'écran de savoir ce qu'il faut saisir.

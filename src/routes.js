@@ -23,14 +23,14 @@ export const routes = [
     component: Formulaire
   },
   {
-    title: 'Structure',
-    path: '/structure',
-    component: Structure
-  },
-  {
     title: 'Modale',
     path: '/modale',
     component: Modale
+  },
+  {
+    title: 'Structure',
+    path: '/structure',
+    component: Structure
   },
   {
     title: 'Styles',

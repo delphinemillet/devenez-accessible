@@ -19,7 +19,7 @@
 	font-size: 1.5em;
 }
 
-.title {
+.center {
   text-align: center;
 }
 
@@ -38,4 +38,27 @@
 	width: 100%;
 	display: flex;
 	justify-content: space-evenly;
+}
+
+.button {
+	font-size: 1em;
+  color: white;
+  background-color: darkcyan;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  padding: .5em 1em;
+  width: max-content;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button.flat {
+	background-color: transparent;
+	color: darkcyan;
+	border-color: darkcyan;
+}
+
+.button:hover {
+	background-color: cadetblue;
+	color: white;
 }

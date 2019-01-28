@@ -1,0 +1,44 @@
+.modal {
+  position: absolute;
+  background: #000000d6;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.modal-content {
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 2em;
+  width: 50%;
+  height: 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  outline: none;
+}
+
+.modal-buttons-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#close {
+  position: absolute;
+  right: 2em;
+  background: transparent;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}

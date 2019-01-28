@@ -7,7 +7,7 @@ import './styles.css'
 
 const Images = () => (
   <div>
-    <h1 className="title">Images</h1>
+    <h1 className="center">Images</h1>
     <div className="column">
       {/* alternative textuelle au logo : nom de la marque */}
       <div>Powered by <img src={logo} className="logo" /></div>

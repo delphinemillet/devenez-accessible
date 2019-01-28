@@ -5,7 +5,7 @@ const logClick = (e) => console.log(`${e.target.id} cliqué !`)
 
 const Interactions = () => (
   <div>
-    <h1 className="title">Interactions</h1>
+    <h1 className="center">Interactions</h1>
     <div className="column">
       <div className="row">
         <button id="bouton 1" onClick={logClick} className="interaction-button">Clique !</button>

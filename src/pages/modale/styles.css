@@ -1,0 +1,16 @@
+.doc {
+  margin-right: .5em;
+}
+
+.modal-list {
+  display: inline-block;
+  text-align: left;
+}
+
+.modal-list li {
+  margin: .5em 0;
+}
+
+.modal-list .button {
+  font-size: .7em;
+}

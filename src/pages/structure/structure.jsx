@@ -2,7 +2,7 @@ import React from 'react'
 
 const Structure = () => (
   <div>
-    <h1 className="title">Structure</h1>
+    <h1 className="center">Structure</h1>
   </div>
 )
  
