@@ -43,7 +43,7 @@
 .button {
 	font-size: 1em;
   color: white;
-  background-color: darkcyan;
+  background-color: darkslategray;
   border: 2px solid transparent;
   border-radius: 5px;
   padding: .5em 1em;
@@ -54,8 +54,8 @@
 
 .button.flat {
 	background-color: transparent;
-	color: darkcyan;
-	border-color: darkcyan;
+	color: darkslategray;
+	border-color: darkslategray;
 }
 
 .button:hover {

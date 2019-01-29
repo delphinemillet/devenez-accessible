@@ -1,6 +1,6 @@
 .interaction-button {
   color: white;
-  background-color: darkcyan;
+  background-color: darkslategray;
   border: none;
   border-radius: 5px;
   padding: .5em 1em;
@@ -21,13 +21,4 @@ button.interaction-button {
 /* Masquer l'outline au focus empêche la navigation au clavier */
 .interaction-button:focus {
   outline: none !important;
-}
-
-/* 
-  Masquer la décoration des liens ne permet plus des les distinguer du contenu d'un texte.
-  La couleur n'est pas un vecteur suffisant car non visible pour les personnes qui perçoivent mal les couleurs.
-*/
-.no-deco {
-  text-decoration: none;
-  color: crimson;
 }

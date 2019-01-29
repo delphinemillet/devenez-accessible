@@ -1,9 +1,8 @@
 import Interactions from './pages/interactions'
 import Images from './pages/images'
 import Formulaire from './pages/formulaire'
-import Structure from './pages/structure'
 import Modale from './pages/modale'
-import Styles from './pages/styles'
+import Couleurs from './pages/couleurs'
 
 
 export const routes = [
@@ -28,13 +27,8 @@ export const routes = [
     component: Modale
   },
   {
-    title: 'Structure',
-    path: '/structure',
-    component: Structure
-  },
-  {
-    title: 'Styles',
-    path: '/styles',
-    component: Styles
+    title: 'Couleurs',
+    path: '/couleurs',
+    component: Couleurs
   }
 ]

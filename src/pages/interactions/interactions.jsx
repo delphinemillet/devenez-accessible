@@ -29,13 +29,7 @@ const Interactions = () => (
           Eviter de faire vocaliser une url.
           Prévenir l'utilisateur si le lien ouvre un nouvel onglet.
         */}
-        <a
-          href="https://touraine.tech/"
-          target="_blank"
-          className="no-deco"
-        >
-          https://touraine.tech
-        </a> 
+        <a href="https://touraine.tech/" target="_blank">https://touraine.tech</a> 
         {` pour plus d'informations !`}
       </p>
     </div>
