@@ -27,3 +27,7 @@ h1 {
 *:focus {
   outline: 5px dashed mediumblue;
 }
+
+*:active {
+  outline: none;
+}

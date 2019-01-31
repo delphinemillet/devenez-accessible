@@ -13,12 +13,11 @@
   background-color: cadetblue;
 }
 
-
 button.interaction-button {
   font-size: 1em;
 }
 
 /* Masquer l'outline au focus empêche la navigation au clavier */
 .interaction-button:focus {
-  outline: none !important;
+  outline: none;
 }

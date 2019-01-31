@@ -8,7 +8,7 @@ class Modale extends React.Component {
     list: ["Avocat", "Riz", "Lentilles", "Lait de coco"]
   }
 
-  toggle = (item) => {
+  toggle = (item) => () => {
     this.setState({ show: !this.state.show, selected: item })
   }
 
@@ -23,13 +23,27 @@ class Modale extends React.Component {
             {list.map(item => (
               <li key={item}>
                 <span className="doc">{item}</span>
-                {/* l'élément ouvrant une modale doit être contrôlable au clavier */}
-                <button className="button" onClick={() => this.toggle(item)} id={`button-${item}`}>Supprimer</button>
+                {/*
+                  l'élément ouvrant une modale doit être
+                  contrôlable au clavier
+                */}
+                <button
+                  onClick={this.toggle(item)}
+                  className="button"
+                  id={`button-${item}`}
+                >
+                  Supprimer
+                </button>
               </li>
             ))}
           </ul>
         </div>
-        {show && <Modal toggle={this.toggle} selected={selected} />}
+        {show &&
+          <Modal
+            toggle={this.toggle()}
+            selected={selected}
+          />
+        }
       </div>
     )
   }
