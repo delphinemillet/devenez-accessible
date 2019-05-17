@@ -4,16 +4,19 @@ Bienvenue sur le répertoire source de ma conférence sur l'accessibilité !
 
  - Toutes les infos sont dans le README 👌
  - Les problèmes d'accessibilité sont décrits en commentaire dans le code source 📖
+ - Le code est également disponible sur [CodeSandbox](https://codesandbox.io/s/5jibj)
  - N'hésitez pas à ouvrir des issues / PR 🤗
 
 ## Qui
  - Delphine MILLET [[Twitter](https://twitter.com/milletdelphine)]
 
 ## Slides
- - [Dernière version](https://docs.google.com/presentation/d/1Hu4PsrydtgNucQyJnHUILUBHNW-KB3SGoBf_SB6x61U/edit?usp=sharing) (TouraineTech, France - 2019)
+ - [Dernière version FR](https://docs.google.com/presentation/d/1x2AZr5LzWqJTQZnzKfFcAWAcOXA1m35FKH4q4w0lEr4/edit?usp=sharing) (RivieraDev, France - 2019) 
+ - [Version 1 FR](https://docs.google.com/presentation/d/1Hu4PsrydtgNucQyJnHUILUBHNW-KB3SGoBf_SB6x61U/edit?usp=sharing) (TouraineTech, France - 2019)
 
 ## Conférences
  - [TouraineTech, France - 2019](https://touraine.tech/)
+ - [RivieraDev, France - 2019](https://rivieradev.fr/)
 
 ## Code commenté
  - Elements intéractifs
