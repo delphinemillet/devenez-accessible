@@ -46,7 +46,7 @@ class Modale extends React.Component {
           Ajouter le role dialog sur une modale et lui donner un titre
           pour donner du contexte à l'utilisateur d'un lecteur d'écran.
         */}
-        <div aria-labelledby="titre" className="modal-content" id="modale" tabIndex="0">
+        <div role="dialog" aria-labelledby="titre" className="modal-content" id="modale" tabIndex="0">
           <button
             id="close"
             onClick={toggle}
